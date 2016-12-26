@@ -1,8 +1,8 @@
 <html>
 <head>
     <title>CHORDS</title>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="http://openlayers.org/en/v3.3.0/build/ol.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://openlayers.org/en/v3.3.0/build/ol.js"></script>
     <script src="ol3-layerswitcher.js"></script>
     <script src="ol3-popup.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

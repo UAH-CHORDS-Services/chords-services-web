@@ -105,7 +105,7 @@ var sensorLayer = new ol.layer.Vector({
                         title: 'NEXRAD',
                         extent: [-13884991, 2870341, -7455066, 6338219],
                         source: new ol.source.TileWMS(({
-                            url: 'http://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r-t.cgi?',
+                            url: 'https://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r-t.cgi?',
                             params: {'LAYERS': 'nexrad-n0r-wmst', 'transparent': true,'format':'image/png','time':datetime}
 
                         }))
