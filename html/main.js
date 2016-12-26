@@ -90,14 +90,14 @@ var sensorLayer = new ol.layer.Vector({
                         title: 'Sensor',
                         extent: [-13884991, 2870341, -7455066, 6338219],
                         source: new ol.source.TileWMS(({
-                            url: 'http://52.0.129.182:8080/geoserver/wms',
+                            url: '/geoserver/wms',
                             params: {'LAYERS': 'CHORDS:Sensor', 'transparent': true,'format':'image/png'}
                         }))
                     }),
                     new ol.layer.Image({
                         title: 'Radar',
                         source: new ol.source.ImageStatic({
-                            url: 'http://52.0.129.182:8080/geoserver/CHORDS/wms?service=WMS&version=1.1.0&request=GetMap&layers=CHORDS:reflectivity&transparent=true&styles=&bbox=-106,39,-103,42&width=500&height=500&srs=EPSG:4326&format=image/png',
+                            url: '/geoserver/CHORDS/wms?service=WMS&version=1.1.0&request=GetMap&layers=CHORDS:reflectivity&transparent=true&styles=&bbox=-106,39,-103,42&width=500&height=500&srs=EPSG:4326&format=image/png',
                             imageExtent: ol.proj.transformExtent([-106,39,-103,42],'EPSG:4326','EPSG:3857')
                         })
                     }),
